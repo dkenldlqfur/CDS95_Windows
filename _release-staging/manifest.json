@@ -1,0 +1,260 @@
+{
+  "version": "1.3.1",
+  "previous": "1.3.0",
+  "installer": "1.1.8",
+  "source_commit": "54c97d9848bfd893b05f79dbe2f9364ef18df291",
+  "notes": "# 1.3.1\n\n- 1.3.0 공개 소스를 기준으로 앱 버전과 업데이트 대상 버전을 1.3.1로 갱신했습니다.\n- 이번 버전에는 별도의 게임 기능 변경이 없습니다.\n- Windows와 macOS는 1.3.0용 패치와 1.1.8 기준 누적 패치로 제공합니다.\n- 웹은 공개 GitHub Pages에서 제공합니다.\n\n## 빌드 검증\n\n- 빌드 소스 커밋: `54c97d9848bfd893b05f79dbe2f9364ef18df291`.\n- Windows 내보내기·패키지·시작 기본값 검사, macOS Universal 아키텍처·임시 서명 검사, 웹 WASM·리소스 팩 정적 검증을 통과했습니다.\n- [세 플랫폼 빌드 기록](https://github.com/dkenldlqfur/cds95/actions/runs/43827086798).\n- 플레이 테스트는 진행하지 않았습니다.\n",
+  "assets": [
+    {
+      "name": "CDS95_Windows_v1.3.0_to_v1.3.1.patch.zip",
+      "size": 63293542,
+      "sha256": "3331f0343d1ac4ea4f64d53bb6784a8e7aa0627c87a23116c10a1ecdec346ce4",
+      "parts": [
+        {
+          "name": "part-0000.bin",
+          "size": 33554432,
+          "sha256": "57622805e169e7c5d37728877cedef65522fe623cc6de38cb2f48911d1bc2e3d"
+        },
+        {
+          "name": "part-0001.bin",
+          "size": 29739110,
+          "sha256": "483d8e1eb741611425060b0b0e73d8d495f8a89e375a4d35eb3bd2841b2687d9"
+        }
+      ]
+    },
+    {
+      "name": "CDS95_Windows_v1.3.0_to_v1.3.1.patch.zip.sha256",
+      "size": 107,
+      "sha256": "6f8596d7720f6c1a4d48dfc5d57f4b3e68f92c10f9e79856e5c796a0ad7cb703",
+      "parts": [
+        {
+          "name": "part-0002.bin",
+          "size": 107,
+          "sha256": "6f8596d7720f6c1a4d48dfc5d57f4b3e68f92c10f9e79856e5c796a0ad7cb703"
+        }
+      ]
+    },
+    {
+      "name": "CDS95_Windows_v1.1.8_to_v1.3.1.patch.zip",
+      "size": 471752440,
+      "sha256": "9322720c272a8d733be573748930ed584b054e3ec37d0fb873b4d3d29cf325b9",
+      "parts": [
+        {
+          "name": "part-0003.bin",
+          "size": 33554432,
+          "sha256": "9af49ce6147d990e9bf19a8cbf7249807941f9ebb96a38a7ae44cd55ecc746c7"
+        },
+        {
+          "name": "part-0004.bin",
+          "size": 33554432,
+          "sha256": "ad5e1708260210e059f17c63616f8aae556ee2ace4fe2bef39099d9ab4b12ae8"
+        },
+        {
+          "name": "part-0005.bin",
+          "size": 33554432,
+          "sha256": "84170f16d411acd717ef761fd1016ea9e3a4f76eab4a4aef92669aa95febcba1"
+        },
+        {
+          "name": "part-0006.bin",
+          "size": 33554432,
+          "sha256": "752c587ab045fcc06f8de7b4dd8369fc9ffdeb9ca4d19872f3daa1bfe4f03a55"
+        },
+        {
+          "name": "part-0007.bin",
+          "size": 33554432,
+          "sha256": "237316755f7cd0bfc6638553acaa070cf12ea9e0957c6cb9a463fa8381b622b2"
+        },
+        {
+          "name": "part-0008.bin",
+          "size": 33554432,
+          "sha256": "f89dc9214d4f888d20a9488a57abc2019deb3d7815c9e260311ee5fad4961b27"
+        },
+        {
+          "name": "part-0009.bin",
+          "size": 33554432,
+          "sha256": "b18d7c931743bc71f532a7699a56b9b9952d2f98bed8ae2df6978d6da4d18cef"
+        },
+        {
+          "name": "part-0010.bin",
+          "size": 33554432,
+          "sha256": "7ed85c0d6bbda02c84b85e2c1293ec62b9e00546676a1dcb9b9e670b832da234"
+        },
+        {
+          "name": "part-0011.bin",
+          "size": 33554432,
+          "sha256": "c6a7cf6279019b35e96c69431c99e2d0a754bae28d54506f60a50c0ed613dc4d"
+        },
+        {
+          "name": "part-0012.bin",
+          "size": 33554432,
+          "sha256": "f872c7e988321f59c718d10ec1911b4b48286d7f6e693e1707c35584b246e3d8"
+        },
+        {
+          "name": "part-0013.bin",
+          "size": 33554432,
+          "sha256": "d7105383a83e287e56d69b5b1746c44322af54cf8cd0166272da359eb4e581c5"
+        },
+        {
+          "name": "part-0014.bin",
+          "size": 33554432,
+          "sha256": "6506af9dda66b66f1fae17ab4a2405c5f52e3249d4370511d7a22d4dd2515f07"
+        },
+        {
+          "name": "part-0015.bin",
+          "size": 33554432,
+          "sha256": "1d1e89b4fdfd646cdf8509a702c1fb0f95259cc44e7323502eb86b58e14d4c44"
+        },
+        {
+          "name": "part-0016.bin",
+          "size": 33554432,
+          "sha256": "cf728aa2eec606cc9eb57caf87e4b850a470c4f4c8fd4bc9c052f6ea93715eea"
+        },
+        {
+          "name": "part-0017.bin",
+          "size": 1990392,
+          "sha256": "098844288be773729f9c96ffc18f10025d024a5c6253f3d36043c19d9d3576d3"
+        }
+      ]
+    },
+    {
+      "name": "CDS95_Windows_v1.1.8_to_v1.3.1.patch.zip.sha256",
+      "size": 107,
+      "sha256": "62036ad88c523763c0f04ce3bf26527634c0559d0e58bb7c2cf67875693d0cee",
+      "parts": [
+        {
+          "name": "part-0018.bin",
+          "size": 107,
+          "sha256": "62036ad88c523763c0f04ce3bf26527634c0559d0e58bb7c2cf67875693d0cee"
+        }
+      ]
+    },
+    {
+      "name": "CDS95_macOS_v1.3.0_to_v1.3.1.patch.zip",
+      "size": 92193175,
+      "sha256": "52c1f10eb8891cbe96f5b12a4a2f12eda11c1c60d40f3d772c5075a8f1a922ab",
+      "parts": [
+        {
+          "name": "part-0019.bin",
+          "size": 33554432,
+          "sha256": "9065c19f0bcf0ad43b8aa07b782a01061bedd1fc4207079d2df521a2e58dfc62"
+        },
+        {
+          "name": "part-0020.bin",
+          "size": 33554432,
+          "sha256": "c387b60d501699950e6bc1c8cbd93961c9eb664ee15e70aba822e7c3216bde68"
+        },
+        {
+          "name": "part-0021.bin",
+          "size": 25084311,
+          "sha256": "4f658aee25e65eef3a728adfcf5be616a75c06a7287797eb4f88ff90787400b4"
+        }
+      ]
+    },
+    {
+      "name": "CDS95_macOS_v1.3.0_to_v1.3.1.patch.zip.sha256",
+      "size": 105,
+      "sha256": "95baa1564008068a071826a9c3dfe0fec68823f0f28c810df267d19088f41ea1",
+      "parts": [
+        {
+          "name": "part-0022.bin",
+          "size": 105,
+          "sha256": "95baa1564008068a071826a9c3dfe0fec68823f0f28c810df267d19088f41ea1"
+        }
+      ]
+    },
+    {
+      "name": "CDS95_macOS_v1.1.8_to_v1.3.1.patch.zip",
+      "size": 500648234,
+      "sha256": "0cbee00acdcec53da8fb27a7647cffc2eab43e1680acb5deca35303d42187512",
+      "parts": [
+        {
+          "name": "part-0023.bin",
+          "size": 33554432,
+          "sha256": "9065c19f0bcf0ad43b8aa07b782a01061bedd1fc4207079d2df521a2e58dfc62"
+        },
+        {
+          "name": "part-0024.bin",
+          "size": 33554432,
+          "sha256": "c387b60d501699950e6bc1c8cbd93961c9eb664ee15e70aba822e7c3216bde68"
+        },
+        {
+          "name": "part-0025.bin",
+          "size": 33554432,
+          "sha256": "a80c07495112e4670b384dbd5994d098f6eeff8e8b10857f98cc563ea3176f62"
+        },
+        {
+          "name": "part-0026.bin",
+          "size": 33554432,
+          "sha256": "3d4bc5a3d15ca6070d5255ecc1cb418f13c716519e6bac944f88e8f7321d0b03"
+        },
+        {
+          "name": "part-0027.bin",
+          "size": 33554432,
+          "sha256": "4967fbc70c9bbf6306845b1529a9bd6b6476bc0737bdc4d46b1d69f14e3a3ead"
+        },
+        {
+          "name": "part-0028.bin",
+          "size": 33554432,
+          "sha256": "ae3453b7ec43a35e4a2a5b4d5c43cb1a60831dfee37ef40dafbe1fc2c283aa68"
+        },
+        {
+          "name": "part-0029.bin",
+          "size": 33554432,
+          "sha256": "cf320865a3ce1f31bdf53b2c2829dfa6ad9c323525e8f1b02856659ca006893b"
+        },
+        {
+          "name": "part-0030.bin",
+          "size": 33554432,
+          "sha256": "5b97fb0445a3447b3de3e86e7e8bda4fdaeccf91594325a1358f3ed8008f0dd7"
+        },
+        {
+          "name": "part-0031.bin",
+          "size": 33554432,
+          "sha256": "70ed092b81006baa058e09cb9c7c1a2005ee51915ec30bc432b6abfc54420281"
+        },
+        {
+          "name": "part-0032.bin",
+          "size": 33554432,
+          "sha256": "197796f7dfa6fa7c75dbe4fe315aba221d1cfc65ac9c2fb3232a4b6032d0f326"
+        },
+        {
+          "name": "part-0033.bin",
+          "size": 33554432,
+          "sha256": "24c775a898195ed62050ba8286580f54a1f42babe863b4e123a4ac32d88d0458"
+        },
+        {
+          "name": "part-0034.bin",
+          "size": 33554432,
+          "sha256": "f0ea74419ebfe1f32edcda645f22378da6d1fe7829c1e28dc282b5ca9f374549"
+        },
+        {
+          "name": "part-0035.bin",
+          "size": 33554432,
+          "sha256": "73df4ff6363059179c6859971ee418f033418894f28c4fbdfbd10ed49e2afce0"
+        },
+        {
+          "name": "part-0036.bin",
+          "size": 33554432,
+          "sha256": "b6314f7e0ea1532ad4f3be7743a86eef60d82eef8caa3ca94896aca9c4b6a7a8"
+        },
+        {
+          "name": "part-0037.bin",
+          "size": 30886186,
+          "sha256": "a9dea35cc08fb3e758d568e6f4594d23b3922846b5caf8422190510732e1d7fb"
+        }
+      ]
+    },
+    {
+      "name": "CDS95_macOS_v1.1.8_to_v1.3.1.patch.zip.sha256",
+      "size": 105,
+      "sha256": "97b3604c36f3f6e6cf678f8d11118f8db20a22fc77eb220a8f8b60a2b42cf9c0",
+      "parts": [
+        {
+          "name": "part-0038.bin",
+          "size": 105,
+          "sha256": "97b3604c36f3f6e6cf678f8d11118f8db20a22fc77eb220a8f8b60a2b42cf9c0"
+        }
+      ]
+    }
+  ]
+}
